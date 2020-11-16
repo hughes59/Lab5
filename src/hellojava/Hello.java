@@ -15,6 +15,7 @@ public class Hello {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+		//This is a bad comment.
         String name = "World";
 		
 		if ( argv.length != 0 ){
