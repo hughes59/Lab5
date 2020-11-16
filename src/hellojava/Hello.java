@@ -15,7 +15,13 @@ public class Hello {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println( "Hello, " + argv[0] + "!" );
+        String name = "World";
+		
+		if ( argv.length != 0 ){
+			name = argv[0];
+		}
+		
+		System.out.println( "Hello, " + name + "!" );
     }
     
 }
